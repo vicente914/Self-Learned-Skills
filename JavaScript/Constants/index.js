@@ -1,0 +1,14 @@
+//Constant variables
+//You can't change the value of a constant once you create it
+const PI = 3.14159;
+let radius;
+let circumference;
+
+document.getElementById("mySubmit").onclick = function(){
+    radius = document.getElementById("myRadius").value;
+    radius = Number(radius);
+    circumference = 2 * PI * radius;
+
+    document.getElementById("myResult").value = `${circumference}cm`;
+}
+
