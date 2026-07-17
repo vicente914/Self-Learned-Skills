@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="section1">
+        <article id="myCheckBoxs">
+            <input type="checkbox" id="myCheckBox">
+            <label for="myCheckBox">subscribe</label>
+        </article><br>
+        
+        <article id="myRadios">
+            <input type="radio" id="visa" name="card">
+            <label for="visa">Visa</label><br>
+
+            <input type="radio" id="masterCard" name="card">
+            <label for="masterCard">MasterCard</label><br>
+
+            <input type="radio" id="payPal" name="card">
+            <label for="payPal">PayPal</label>
+        </article><br>
+
+        <button type="submit" id="mySubmit">submit</button>
+        
+        <p id="subResult"></p>
+        <p id="paymentResult"></p>
+    </section>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
