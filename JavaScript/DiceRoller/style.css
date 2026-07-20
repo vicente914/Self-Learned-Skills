@@ -1,0 +1,57 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 15px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#diceRoller{
+    display: flex;
+    gap: 20px;
+
+    padding: 15px;
+
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid;
+
+    background-color: rgba(214, 20, 20, 0.74);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(240, 113, 113, 0.74);
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#diceResult{
+    margin-top: 15px;
+}
+
+#diceImages{
+    margin-top: 10px;
+}
+
+#diceImages img{
+    width: 120px;
+    margin: 10px;
+}
