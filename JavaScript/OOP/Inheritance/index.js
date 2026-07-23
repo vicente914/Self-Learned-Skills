@@ -13,7 +13,8 @@ class Animal{
 class Cat extends Animal{
     name = "cat";
 
-    //This is called Override, used to change the inherited method behaviour
+    //When a child class inherits from their parent class, you may modify the behaviour 
+    // of the methods if you want to.
     makeNoise(){
         console.log(`The ${this.name} meows`);
     }
